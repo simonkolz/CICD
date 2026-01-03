@@ -6,11 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    
     steps:
-      - name: checkout code
+      - name: Checkout code
         uses: actions/checkout@v5
 
-
-      - name: use Secrets
-        run: echo "the secret is ${{secret.MY_SECRET}}"  
+      - name: Use secret
+        run: echo "the secret is ${{ secrets.MY_SECRET }}"
