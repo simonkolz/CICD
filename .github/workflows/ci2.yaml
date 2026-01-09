@@ -1,4 +1,4 @@
-name: Coderco Secrets Workflow
+name: Coderco Custom Actions CI
 
 on: [push]
 
@@ -10,10 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
-      - name: Use secret
-        run: echo "the secret is ${{ secrets.MY_SECRET }}"
-
-      - name: use secret as env var
-        run: echo "this is $MY_SECRET"
-        env:
-          MY_SECRET: ${{ secrets.MY_SECRET }}
+      - name: hello world custom action
+        uses: simonkolz/coderco-custom@main
+        with:
+          who-to-greet: 'Coderco Team'
