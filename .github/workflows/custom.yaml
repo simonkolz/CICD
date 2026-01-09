@@ -1,4 +1,4 @@
-name: Coderco Custom Actions CI
+name: Coderco Custom Action CI
 
 on: [push]
 
