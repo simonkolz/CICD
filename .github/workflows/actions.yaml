@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: ci2/checkout@v5
+        uses: actions/checkout@v5
 
       - name: hello world custom action
         uses: simonkolz/coderco-custom@main
