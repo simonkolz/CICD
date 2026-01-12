@@ -1,7 +1,5 @@
-import unittest
+from hello import hello
 
-from hello import say_hello
 
-class TestHello(unittest.TestCase):
-    def test_say_hello(self):
-        self.assertEqual(say_hello(), "Hello World")
+def test_hello_returns_hello_world():
+    assert hello() == "Hello, world!"
