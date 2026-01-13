@@ -1,5 +1,4 @@
-from hello import hello
+from hello import say_hello
 
-
-def test_hello_returns_hello_world():
-    assert hello() == "Hello, world!"
+def test_say_hello():
+    assert say_hello() == "Hello World"
