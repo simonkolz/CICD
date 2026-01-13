@@ -32,9 +32,12 @@ jobs:
       - name: setup docker build
         uses: docker/setup-buildx-action@v3
 
-      - name: Where am i
-        working-directory: chap4
-        run: |
-          pwd
-          ls  
-  
+      - name: Build Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./chap4
+          file: ./chap4/Dockerfile
+          tags: chap4-app:ci
+          push: false  
+
+      
