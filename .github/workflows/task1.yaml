@@ -6,6 +6,8 @@ on:
     paths:
       - "chap4/**"
       - ".github/workflows/task1.yaml"
+      - "site/**"
+      - ".github/workflows/cd-pages.yaml"
 
 jobs:
   build:
