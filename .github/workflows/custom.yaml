@@ -1,6 +1,10 @@
 name: Coderco Custom Action CI
 
-on: [push]
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - ".github/workflows/custom.yaml"
 
 jobs:
   build:
