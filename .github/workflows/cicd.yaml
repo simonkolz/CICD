@@ -1,4 +1,4 @@
-name: CI/CD Pipeline task 1
+name: CI/CD Pipeline task 
 
 on:
   pull_request:
