@@ -6,7 +6,7 @@ on:
     paths:
       - "chap4/**"
       - "site/**"
-      - ".github/workflows/cd-pages.yaml"
+      - ".github/workflows/cicd.yaml"
 
 permissions:
   contents: read
