@@ -13,7 +13,7 @@ This workflow supports:
 I configured the pipeline to run automatically when changes are made to critical parts of the project.
 
 ### Pull Requests to `main`
-The CI pipeline runs when a pull request targets the `main` branch and includes changes in:
+The CICD pipeline runs when a pull request targets the `main` branch and includes changes in:
 - `chap4/**`
 - `site/**`
 - `.github/workflows/cicd.yaml`
