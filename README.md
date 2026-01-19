@@ -38,6 +38,9 @@ I applied the principle of **least privilege** by assigning only the required pe
 
 ---
 
+<img width="875" height="217" alt="github-pages-deployed" src="https://github.com/user-attachments/assets/391510bf-1f5b-4b6c-b761-bdf6ceed2a51" />
+
+
 ## 🔄 Concurrency Management
 
 ```yaml
