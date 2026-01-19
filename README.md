@@ -38,17 +38,13 @@ I applied the principle of **least privilege** by assigning only the required pe
 
 ---
 
-<img width="875" height="217" alt="github-pages-deployed" src="https://github.com/user-attachments/assets/391510bf-1f5b-4b6c-b761-bdf6ceed2a51" />
+
+## 🚀 Live Deployment (GitHub Pages)
+
+<img width="875" height="217" alt="github-pages-deployed" src="https://github.com/user-attachments/assets/a0fb5d24-fb3b-44f0-a6ac-5440572a48c6" />
 
 
-## 🔄 Concurrency Management
-
-```yaml
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
----
-
+This screenshot verifies that the **Continuous Deployment (CD)** stage is working correctly.
+Once CI passes on the `main` branch, the site is automatically deployed.
 
 
